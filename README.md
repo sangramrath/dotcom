@@ -1,34 +1,43 @@
-# DevsCard
+<h1 align=center>Astro Simple Portfolio</h1>
 
-A fully customizable template to create your online (and paper) resume without writing a single line of code.
+<p align=center>A simple and high performing portfolio template built with Astro.</p>
+<h2 align="center"><a target="_blank" href="https://astro-simple-portfolio.vercel.app/" rel="nofollow"> Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-astro-simple-portfolio-vercel-app/sl03lqgum9?form_factor=desktop"> Page Speed (100) 🚀 </a>
+</h2>
 
-> [!IMPORTANT]
-> This project will remain available but <ins>**won't receive updates**</ins>.
->
-> If you are searching for a great framework to build your resume, **[check out Zenith](https://github.com/KonradSzwarc/zenith)**. It's a new iteration of this project utilizing recent Astro version capabilities that will provide you with much more features and customizability.
+![Screenshot](https://github.com/saminnet/astro-simple-portfolio/assets/5575369/ee64b583-1d9c-47f5-9832-863eaf8968a3)
 
-## Features
+### 📌 Key Features
 
-- **✍️ Intellisense** — provide your data in TypeScript files, getting autocompletion and description of each property right in your IDE.
-- **📱 Responsiveness** — the resume is created and automatically tested to look good both on mobile and desktop devices.
-- **🌠 Assets optimization** — all images in your CV are minimized and resized automatically at build time.
-- **⚡️ Performance** — get 100 for all Lighthouse metrics, ensuring a great experience for visitors and a high score for search engines.
-- **📄 PDF generation** — generate an accompanying PDF version of your CV with one command.
-- **🔶 Built-in icon sets** — choose from over 100 000 [Iconify](https://iconify.design/) icons to represent your skills.
-- **🌍 I18n** — customize your resume's locale, date formatting, and used translations.
-- **🔎 SEO friendly** — the entire website is designed with SEO in mind. All SEO-related config properties are required and well-described.
-- **🏭 Favicons generation** — invoke one command to generate all favicons and full app manifest for your website.
-- **🛠 Data helpers** — use built-in helpers to define your skills/socials once and reuse them across the configuration.
-- **🔀 Data transformers** — utilize type-safe data transformers to create multiple variants of your resume without duplicating your data.
+- 🎨 Highly customizable (Colors, Fonts, etc.)
+- 🌅 Supports both static and animated backgrounds
+- 🅰️ Incorporates `astro-fonts` for automatic Google fonts optimization
+- ⚡ Designed for speed (100 Google PageSpeed Score)
+- 🎨 Built with the Tailwind CSS framework
+- 📱 Fully responsive across all devices - desktops, tablets, and smartphones
+- 💬 Code formatted using [Prettier](https://prettier.io/)
+- 🔍 SEO optimized
 
-## Documentation
+### 🧞 Commands
 
-To learn how to set up your resume, go to:
+This project utilizes [pnpm](https://pnpm.io) as its package manager. However, you have the flexibility to choose your preferred package manager.
 
-[https://devscard.gitbook.io/docs](https://devscard.gitbook.io/docs/setup-guide)
+All commands are run from the root of the project, from a terminal:
 
-## Example
+| Command                    | Action                                           |
+| :------------------------- | :----------------------------------------------- |
+| `pnpm install`             | Installs dependencies                            |
+| `pnpm run dev`             | Starts local dev server at `localhost:4321`      |
+| `pnpm run build`           | Build your production site to `./dist/`          |
+| `pnpm run preview`         | Preview your build locally, before deploying     |
+| `pnpm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `pnpm run astro -- --help` | Get help using the Astro CLI                     |
 
-To see an example CV, visit the link below:
+### ✍️ Contributing
 
-[https://devscard.netlify.app](https://devscard.netlify.app/)
+Contributions are welcome. Please open an issue or submit a pull request.
+
+### 📄 License
+
+![GitHub License](https://img.shields.io/github/license/saminnet/astro-simple-portfolio)
+
+This project is licensed under the MIT License
